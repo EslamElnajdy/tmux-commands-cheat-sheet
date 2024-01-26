@@ -30,6 +30,7 @@ A quick reference for commonly used `tmux` commands.
 | `Ctrl-b p`       | Switch to the previous window.                  |
 | `Ctrl-b 0-9`     | Switch to windows 0-9.                          |
 | `Ctrl-b w`       | List windows and switch to the selected one.    |
+| `Ctrl-b &`       | Close the current window (prompt for confirmation).|
 
 
 ## Splitting Panes

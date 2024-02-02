@@ -58,5 +58,28 @@ A quick reference for commonly used `tmux` commands.
 | `Ctrl-b ?`                     | Display a list of all `tmux` commands.         |
 | `Ctrl-b :`                     | Enter command mode to type `tmux` commands.    |
 
+
+## Copying and Pasting Text
+
+| Action                              | Key Binding                |
+|-------------------------------------|----------------------------|
+| Enter Copy Mode                     | `Ctrl-b` + `[`             |
+| Navigate and Select Text            | Arrow keys, `Space`         |
+| Copy Text                           | `Enter`                    |
+| Navigate to Destination Pane        | Go to the desired pane      |
+| Paste Text                          | `Ctrl-b` + `]`             |
+
+
+## Exiting Copy Mode
+
+| Action                              | Key Binding         |
+|-------------------------------------|---------------------|
+| Exit Copy Mode (without copying)    | `q`                 |
+| Exit Copy Mode (after copying)      | `Esc` or `Ctrl-c`   |
+
+
+## Customization
+If you have a customized tmux configuration, check your `~/.tmux.conf` file or use the `tmux list-keys` command to view the current key bindings.
+
 Feel free to explore more `tmux` commands.
 for additional information, refer to the `tmux` man page (`man tmux`).
